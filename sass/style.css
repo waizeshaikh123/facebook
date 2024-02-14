@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #38393b;
+  background: #242526;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+nav .logo {
+  width: 45px;
+  height: 45px;
+  background: url(/images/facebook_logo.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+nav input {
+  position: relative;
+  left: 100%;
+  color: #fff;
+  background: #3A3B3C;
+  border: 1px solid rgb(53, 48, 48);
+}
+nav .search {
+  position: fixed;
+  left: 90px;
+  top: 17px;
+  font-size: 1.2rem;
+  display: block;
+  color: #ADB0B5;
+}
+nav .home {
+  padding: 8px 0;
+}
+nav .home a {
+  position: relative;
+  color: #ADB0B5;
+  margin: 0 1.5rem;
+}
+nav .home a:hover {
+  background: #3A3B3C;
+}
+nav .home a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 120%;
+  left: 0;
+  transition: all ease-in 0.3s;
+}
+nav .home a:hover::after {
+  width: 100%;
+  background: blue;
+  display: none;
+  transition: all ease 0.3s;
+}
+nav .menu {
+  display: block;
+  padding-top: 10px;
+  position: relative;
+}
+nav .menu a {
+  color: #fff;
+  background-color: #3A3B3C;
+  transition: all ease 0.3s;
+}
+nav .menu a:hover {
+  background: #4E4F50;
+}
+nav .menu .account {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .menu .account img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 1000vh;
+  background: #18191A;
+  padding: 3rem 0;
+}
+#main .left-bar-main {
+  height: 100vh;
+  position: fixed;
+}
+#main .left-bar-main:hover {
+  overflow-y: scroll;
+}
+#main .right-bar-main {
+  position: fixed;
+}
+#main .left-bar a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main .left-bar a {
+  color: #fff;
+}
+#main .left-bar a:hover {
+  color: #4E4F50;
+}
+#main i {
+  color: #ADB0B5;
+}
+#main .privacy a {
+  color: #ADB0B5;
+  text-decoration: none;
+  font-size: 13px;
+  transition: all ease 0.3s;
+}
+#main .privacy a:hover {
+  text-decoration: underline;
+}
+#main .center-bar a {
+  transition: all ease-in 0.2s;
+}
+#main .center-bar a:hover {
+  background: #3A3B3C;
+}/*# sourceMappingURL=style.css.map */
