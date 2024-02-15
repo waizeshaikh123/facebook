@@ -135,9 +135,35 @@ nav .menu .account img {
 #main .privacy a:hover {
   text-decoration: underline;
 }
+#main .main-center {
+  width: 100%;
+}
 #main .center-bar a {
   transition: all ease-in 0.2s;
 }
 #main .center-bar a:hover {
   background: #3A3B3C;
+}
+#main .center-bar a .center-plus {
+  background: #364b62;
+}
+#main .whats-onmind {
+  position: relative;
+  cursor: pointer;
+  width: 79%;
+  min-height: 120px;
+  background: #fff;
+}
+#main .whats-onmind .main-whats-onmind .account-2 img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main .whats-onmind input {
+  cursor: pointer;
+  background: #3A3B3C;
+  color: wheat;
+}
+#main .video a {
+  color: #ADB0B5;
 }/*# sourceMappingURL=style.css.map */
