@@ -137,6 +137,8 @@ nav .menu .account img {
 }
 #main .main-center {
   width: 100%;
+  height: auto;
+  display: block;
 }
 #main .center-bar a {
   transition: all ease-in 0.2s;
@@ -166,4 +168,33 @@ nav .menu .account img {
 }
 #main .video a {
   color: #ADB0B5;
+}
+#main .main-card {
+  position: relative;
+}
+#main .main-card a {
+  text-decoration: none;
+  font-size: 0.8em;
+}
+#main .main-card a:hover {
+  text-decoration: underline;
+}
+#main .main-card span a:nth-child(1) {
+  font-weight: 600;
+  color: white;
+}
+#main .main-card span a:nth-child(2) {
+  font-weight: 500;
+}
+#main .main-card span a:nth-child(4) {
+  font-size: 0.8em;
+  color: #ADB0B5;
+}
+#main .main-card .emojis span {
+  margin: 0 -5px;
+  font-size: 1.3rem;
+}
+#main .main-card .last-icon a {
+  text-decoration: none;
+  color: wheat;
 }/*# sourceMappingURL=style.css.map */

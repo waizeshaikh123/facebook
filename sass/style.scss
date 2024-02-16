@@ -135,6 +135,8 @@ nav{
     }
     .main-center{
         width:100%;
+        height: auto;
+        display: block;
     }
     .center-bar a{
         transition: all ease-in 0.2s;
@@ -163,5 +165,34 @@ nav{
     }
     .video a{
         color: #ADB0B5;
+    }
+    .main-card{
+        position: relative;
+        a{
+            text-decoration: none;
+            font-size: 0.8em;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        span a:nth-child(1){
+            font-weight: 600;
+            color: white;
+        }
+        span a:nth-child(2){
+            font-weight: 500;
+        }
+        span a:nth-child(4){
+            font-size: 0.8em;
+            color: #ADB0B5;
+        }
+        .emojis span{
+            margin: 0 -5px;
+            font-size: 1.3rem;
+        }
+        .last-icon a{
+            text-decoration: none;
+            color: wheat;
+        }
     }
 }
