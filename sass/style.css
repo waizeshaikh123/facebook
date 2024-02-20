@@ -9,6 +9,19 @@ html, body {
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3A3B3C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18191A;
+  border-radius: 1px;
+}
+
 nav {
   width: 100%;
   height: 60px;
@@ -99,7 +112,7 @@ nav .menu .account img {
 #main {
   position: relative;
   width: 100%;
-  height: 1000vh;
+  height: auto;
   background: #18191A;
   padding: 3rem 0;
 }
@@ -112,6 +125,31 @@ nav .menu .account img {
 }
 #main .right-bar-main {
   position: fixed;
+}
+#main .right-bar-main .group-main {
+  cursor: pointer;
+}
+#main .right-bar-main .card {
+  display: none;
+  height: 100vh;
+  position: relative;
+  top: 10px;
+  right: 76px;
+}
+#main .right-bar-main .card i {
+  cursor: pointer;
+}
+#main .right-bar-main .card .end-p {
+  font-size: 0.9em;
+}
+#main .right-bar-main .card .end-to-end {
+  background: #303031;
+  border: 1px solid #303031;
+}
+#main .right-bar-main .card .circle {
+  transition: all ease 0.3s;
+  cursor: pointer;
+  background: #fff;
 }
 #main .left-bar a img {
   -o-object-fit: cover;
